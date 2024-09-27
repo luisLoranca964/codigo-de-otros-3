@@ -13,7 +13,7 @@ const li = document.getElementById("lista-de-productos")
 //variable no puede comenzar con caracter especial 
 const i = document.querySelector('input');
 
-//Se agrega funcion displayProductos ya que aqui es don se crea una etiqueta div y se comienza a agregar los productos
+//Se agrega funcion displayProductos ya que aqui es donde se crea una etiqueta div y se comienza a agregar los productos
 function displayProductos() {
   for (let i = 0; i < productos.length; i++) {
     var d = document.createElement("div")
